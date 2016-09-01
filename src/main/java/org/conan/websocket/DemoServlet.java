@@ -62,5 +62,11 @@ public class DemoServlet extends WebSocketServlet {
 		}
 	}
 
+	@Override
+	protected StreamInbound createWebSocketInbound(String subProtocol) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 }
